@@ -6,6 +6,10 @@
   <version>1.0-SNAPSHOT</version>
   <name>Archetype - RestAPIConsumer</name>
   <url>http://maven.apache.org</url>
+  <properties>
+    <maven.compiler.source>18</maven.compiler.source>
+    <maven.compiler.target>18</maven.compiler.target>
+  </properties>
 
   <dependencies>
     <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
